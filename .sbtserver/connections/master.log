@@ -1,0 +1,26 @@
+New log file opened at Sat Oct 10 08:56:00 COT 2015 by 19062@lis-sala4
+Taking next connection to: 46067
+New client attempting to connect on port: 40006-46067
+  Address = /127.0.1.1:46067
+Handshake exception on socket: 40006
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 46067
+New client attempting to connect on port: 40007-46067
+  Address = /127.0.1.1:46067
+This client on port 40007 has uuid f5f9288f-8ee3-495e-ad12-7e272d18f630 configName activator humanReadableName Activator protocolVersion unknown featureTags Vector()
+Connected Clients: activator-f5f9288f-8ee3-495e-ad12-7e272d18f630
+Taking next connection to: 46067
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 46067
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 46067
